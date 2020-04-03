@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *userID;
+
+
+- (IBAction)testException:(UIButton *)sender;
+
 
 @end
 

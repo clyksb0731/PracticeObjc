@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA63743F2434D93400E52897 /* FirstCustomException.m in Sources */ = {isa = PBXBuildFile; fileRef = CA63743E2434D93400E52897 /* FirstCustomException.m */; };
+		CA6374422434D99300E52897 /* SecondCustomException.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6374412434D99300E52897 /* SecondCustomException.m */; };
 		CAF2760A2433347900DAE06E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF276092433347900DAE06E /* AppDelegate.m */; };
 		CAF276102433347900DAE06E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF2760F2433347900DAE06E /* ViewController.m */; };
 		CAF276132433347900DAE06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF276112433347900DAE06E /* Main.storyboard */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA63743D2434D8D700E52897 /* FirstCustomException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstCustomException.h; sourceTree = "<group>"; };
+		CA63743E2434D93400E52897 /* FirstCustomException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstCustomException.m; sourceTree = "<group>"; };
+		CA6374402434D97D00E52897 /* SecondCustomException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondCustomException.h; sourceTree = "<group>"; };
+		CA6374412434D99300E52897 /* SecondCustomException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondCustomException.m; sourceTree = "<group>"; };
 		CAF276052433347900DAE06E /* ObjectiveCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF276082433347900DAE06E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAF276092433347900DAE06E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA63743C2434D8A900E52897 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				CA63743D2434D8D700E52897 /* FirstCustomException.h */,
+				CA63743E2434D93400E52897 /* FirstCustomException.m */,
+				CA6374402434D97D00E52897 /* SecondCustomException.h */,
+				CA6374412434D99300E52897 /* SecondCustomException.m */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
 		CAF275FC2433347900DAE06E = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +85,7 @@
 				CAF276112433347900DAE06E /* Main.storyboard */,
 				CAF276212433352F00DAE06E /* Manager.h */,
 				CAF276222433354500DAE06E /* Manager.m */,
+				CA63743C2434D8A900E52897 /* Exceptions */,
 				CAF276142433347A00DAE06E /* Assets.xcassets */,
 				CAF276162433347A00DAE06E /* LaunchScreen.storyboard */,
 				CAF276192433347A00DAE06E /* Info.plist */,
@@ -146,7 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA63743F2434D93400E52897 /* FirstCustomException.m in Sources */,
 				CAF276102433347900DAE06E /* ViewController.m in Sources */,
+				CA6374422434D99300E52897 /* SecondCustomException.m in Sources */,
 				CAF2760A2433347900DAE06E /* AppDelegate.m in Sources */,
 				CAF2761B2433347A00DAE06E /* main.m in Sources */,
 				CAF276232433354500DAE06E /* Manager.m in Sources */,
